@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="stylequiz.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="quiz">
+            <div class="quiz_header">
+                <h3 class="namestyling">Welcome! <span id="userNameId" name="name"></span></h3>
+                <span class="timer" id="counter" onclick="">00:00:00</span>
+
+            </div>
+            <div class="quiz_body">
+               <div id="questions">
+               </div>
+                <button class="nextques" onclick="next()">NEXT QUESTION</button>
+                
+            </div>
+            
+        </div>
+    </div>
+    
+</body>
+<script src="appquiz.js"></script>
+</html>
